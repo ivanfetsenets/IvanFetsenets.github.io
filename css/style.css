@@ -1,18 +1,96 @@
 body
 {
-width: 80%;
-margin: 5%;
+width: 95%;
+margin: 3% auto 0% auto; 
+background-color: #e3e3e3;
 }
 
+.navbar-inverse {
+    background-color: #00688B;
+}
 
 .scrollup{
 width:40px;
 height:40px;
 opacity:0.3;
 position:fixed;
-bottom:50px;
-right:50px;
+bottom:10%;
+right:1%;
 display:none;
 text-indent:-9999px;
 background: url('../images/icon_top.png') no-repeat;
+}
+
+#message
+{
+ resize: none;
+ height: 135px
+}
+
+.navbar-left
+{
+	padding-left: 5%;
+	font-size: x-large;
+	font-family: 'Roboto', sans-serif;
+}
+
+.my-aside-bar
+{
+
+}
+
+.main-text
+{
+
+}
+
+.my-footer
+{
+    background-color: #26b864;
+    color: white;
+    padding: auto;
+}
+
+.site-footer {
+    background-color: #26b864;
+    color: white;
+    margin-top: 120px;
+    padding: 25px 0;
+    text-align: center;
+    background-color: #00688B;
+  	border-color: #080808;
+	}
+
+#weather-block{
+    border: 1px solid blue;
+}
+
+#city{
+float: left;
+border: 3px solid blue;
+font-size: large;
+text-align: center;
+vertical-align: center;
+}
+
+#wind{
+width: 50%;
+float: left;
+clear: left;
+border: 1px solid blue;
+}
+
+#clouds{
+width: 50%;
+border: 1px solid blue;	
+float: left;
+clear: left;
+
+}
+
+#pressure{
+width: 50%;
+border: 1px solid blue;
+float: left;
+clear: left;
 }
