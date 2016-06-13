@@ -3,10 +3,28 @@ body
 width: 95%;
 margin: 3% auto 0% auto; 
 background-color: #e3e3e3;
+font-size: 2em;
+background: url('../images/backgroun-2.jpg') repeat;
+}
+
+select {
+    background-color:  #CD7054;
+}
+
+td {
+        width: 100px;
+}
+
+tr{
+    line-height: 30px;
 }
 
 .navbar-inverse {
-    background-color: #00688B;
+    background-color: #CD853F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
 }
 
 .scrollup{
@@ -21,31 +39,18 @@ text-indent:-9999px;
 background: url('../images/icon_top.png') no-repeat;
 }
 
-#message
-{
+#message {
  resize: none;
- height: 135px
+ /*height: 135px*/
 }
 
-.navbar-left
-{
+.navbar-left {
 	padding-left: 5%;
 	font-size: x-large;
 	font-family: 'Roboto', sans-serif;
 }
 
-.my-aside-bar
-{
-
-}
-
-.main-text
-{
-
-}
-
-.my-footer
-{
+.my-footer {
     background-color: #26b864;
     color: white;
     padding: auto;
@@ -59,38 +64,127 @@ background: url('../images/icon_top.png') no-repeat;
     text-align: center;
     background-color: #00688B;
   	border-color: #080808;
-	}
-
-#weather-block{
-    border: 1px solid blue;
 }
 
-#city{
-float: left;
-border: 3px solid blue;
-font-size: large;
-text-align: center;
-vertical-align: center;
+#weather-block{
+    border: 5px solid blue;
+}
+
+#city .city{
+    float: left;
+    border: 3px solid blue;
+    font-size: large;
+    text-align: center;
+    vertical-align: center;
 }
 
 #wind{
-width: 50%;
-float: left;
-clear: left;
-border: 1px solid blue;
-}
+    width: 50%;
+    float: left;
+    clear: left;
+    border: 1px solid blue;
+    }
 
-#clouds{
-width: 50%;
-border: 1px solid blue;	
-float: left;
-clear: left;
-
+#city, #temperature, #clouds, #pressure, #sunrise_time, #sunset_time
+{
+    width: 50%;
+    border: 1px solid blue;	
+    float: left;
+    clear: left;
 }
 
 #pressure{
-width: 50%;
-border: 1px solid blue;
-float: left;
-clear: left;
+    width: 50%;
+    border: 1px solid blue;
+    float: left;
+    clear: left;
 }
+
+.carousel .item {
+    width:70%;
+    height:auto;
+}
+
+.carousel-inner > .item > img {
+    width:70%;
+    height:auto;
+    margin-left: 35%;
+}
+
+.my_avatar{
+    width: 100%;
+    border-radius: 20%;
+    box-shadow: 11px 0 24px -11px #435471;
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.my_contact{
+    padding-left: 30px; 
+}
+
+.border_top_and_bottom{
+    border-bottom: 1px solid #8B8989;
+    border-top: 1px solid #8B8989;
+    margin: 10px;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.icon_skills{
+    width: 200px;
+    height: 230px;
+}
+
+.icon_education{
+    width: 250px;
+    height: 150px;
+}
+
+.my_height{
+    height:  200px;
+    padding-top: 30px;
+    margin: 30px;
+}
+
+.div_space{
+    height: 50px;
+}
+
+.p_fonts{
+    font-family: "comic sans ms";
+}
+
+.social_network ul{
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    margin-top: 10px;
+}
+
+ul.social_network li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 30px 30px 30px 30px; /* Поля вокруг текста */
+    font-size: 2em;
+}
+
+.title_header{
+    font-size: 2em;
+}
+
+.title_header_div{
+    height: 150px;
+}
+
+.panel-primary > .panel-heading {
+    background-color : #CD853F;
+}
+/* .panel-primary > .panel-body {
+    background-color : #CD853F;
+}
+
+.panel-primary > .panel-body > ul li{
+    background-color : #CD853F;
+} */
