@@ -1,10 +1,11 @@
 body
 {
-width: 95%;
+width: 90%;
 margin: 3% auto 0% auto; 
 background-color: #e3e3e3;
 font-size: 2em;
 background: url('../images/backgroun-2.jpg') repeat;
+font-family: "comic sans ms";
 }
 
 select {
@@ -25,6 +26,7 @@ tr{
 
 .navbar-inverse .navbar-nav > li > a {
     color: black;
+    font-family: "comic sans ms";
 }
 
 .scrollup{
@@ -41,7 +43,6 @@ background: url('../images/icon_top.png') no-repeat;
 
 #message {
  resize: none;
- /*height: 135px*/
 }
 
 .navbar-left {
@@ -78,24 +79,9 @@ background: url('../images/icon_top.png') no-repeat;
     vertical-align: center;
 }
 
-#wind{
-    width: 50%;
-    float: left;
-    clear: left;
-    border: 1px solid blue;
-    }
-
-#city, #temperature, #clouds, #pressure, #sunrise_time, #sunset_time
-{
+#city, #temperature, #wind, #clouds{
     width: 50%;
     border: 1px solid blue;	
-    float: left;
-    clear: left;
-}
-
-#pressure{
-    width: 50%;
-    border: 1px solid blue;
     float: left;
     clear: left;
 }
@@ -129,7 +115,8 @@ background: url('../images/icon_top.png') no-repeat;
     border-bottom: 1px solid #8B8989;
     border-top: 1px solid #8B8989;
     margin: 10px;
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     font-family: cursive;
 }
 
@@ -143,10 +130,8 @@ background: url('../images/icon_top.png') no-repeat;
     height: 150px;
 }
 
-.my_height{
-    height:  200px;
-    padding-top: 30px;
-    margin: 30px;
+.my_text_height{
+    font-size: 1.2em;
 }
 
 .div_space{
@@ -174,17 +159,10 @@ ul.social_network li {
     font-size: 2em;
 }
 
-.title_header_div{
-    height: 150px;
-}
-
 .panel-primary > .panel-heading {
     background-color : #CD853F;
 }
-/* .panel-primary > .panel-body {
-    background-color : #CD853F;
-}
 
-.panel-primary > .panel-body > ul li{
-    background-color : #CD853F;
-} */
+.badge{
+    font-size: 16px;
+}
