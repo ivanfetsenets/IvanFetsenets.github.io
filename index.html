@@ -17,30 +17,29 @@
 <body>
 
     <!-- Top menu -->    
-    <header id="home">
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="navid">
-            <div class="container-fluid">
-                <div id="home" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li id="menu_home"><a href="#home">Home</a></li>
-                        <li id="menu_about-me"><a href="#about-me">About me</a></li>
-                        <li id="menu_education"><a href="#education">Education</a></li>
-                        <li id="menu_skills"><a href="#skills">Skills</a></li>
-                        <li id="menu_photo-gallery"><a href="#photo-gallery">Photo gallery</a></li>
-                        <li id="menu_contact"><a href="#contact">Contact</a></li>
-                    </ul>
+        <header id="home">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div id="home" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li id="menu_home"><a href="#home">Home</a></li>
+                            <li id="menu_about-me"><a href="#about-me">About me</a></li>
+                            <li id="menu_education"><a href="#education">Education</a></li>
+                            <li id="menu_skills"><a href="#skills">Skills</a></li>
+                            <li id="menu_photo-gallery"><a href="#photo-gallery">Photo gallery</a></li>
+                            <li id="menu_contact"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
     <!-- End Top menu -->
 
     <!-- Section About Me -->
             <section id="about-me">
                 <div class="row">
                     <div class="col-lg-9">
-                         <div class="title_header"></div>
-                        <center><div class="about_me border_top_and_bottom"><h2 class="title_header">About me</h2></div></center>
+                        <center><div class="border_top_and_bottom"><h2 class="title_header">About me</h2></div></center>
                         <div class="col-lg-4">
                             <img class="my_avatar" src="images/My_avatar.JPG" alt="My avatar">
                         </div>
@@ -50,7 +49,7 @@
                                 <p>Welcome to my first web-page</p>
                                 <p>With the help this site I will tell a little  about myself</p>
                                 <p>Every day I work to improve my skills</p> 
-                                <p>And discover new ways of self-development. Coding is interesting life!</p>
+                                <p>And discover new ways of self-development. Coding is an interesting life!</p>
                             </center>
                         </div>
                     </div>
@@ -96,7 +95,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </aside>
+                                <!-- Currency panel -->
                                     <div class="panel panel-primary">
                                         <div class="panel-heading">
                                         Currency
@@ -109,18 +108,17 @@
                                         <!-- Minfin.com.ua currency informer 275x120 yellow-->
                                         </div>
                                     </div>
+                                <!-- End Currency panel -->
+                            </aside>
                         </div>
-                    <!-- End Aside bar. Weather-->    
+                    <!-- End Aside bar -->    
                 </div> 
             </section>
-
-
     <!-- End Section About Me -->
 
     <!-- Main text -->  
     <div class="row">
-        <div class="col-lg-10">
-                <div class="title_header"></div>
+        <div class="col-lg-12">
                 <div id="education" class="border_top_and_bottom">
                     <center><h2 class="title_header">Education</h2></center>
                 </div>
@@ -160,18 +158,22 @@
                 <div class="row">
                     <div class="col-lg-3">
                     <center><img class="icon_skills" src="images/icon_html5.png"></center>
+                    <center><h2>HTML5</h2></center>
                     </div>
 
                     <div class="col-lg-3">
                     <center><img class="icon_skills" src="images/icon_css3.png"></center>
+                    <center><h2>CSS3</h2></center>
                     </div>
 
                     <div class="col-lg-3">
                     <center><img class="icon_skills" src="images/icon_javascript.png"></center>
+                    <center><h2>JavaScript</h2></center>
                     </div>
 
                     <div class="col-lg-3">
                     <center><img class="icon_skills" src="images/icon_bootstrap.png"></center>
+                    <center><h2>Bootstrap</h2></center>
                     </div>
 
                 </div>
@@ -384,6 +386,18 @@
             </div>
       </section>
     <!-- /Contact info -->
+    
+        <footer>
+            <center>
+            <h3>
+                <i class="fa fa-copyright"></i>
+                Ivan Fetsenets, 2016
+              </h3>
+            </center>
+        </footer>
+  
+
+
 
     <script type="text/javascript">
         var cities = document.getElementById("citylist");

@@ -29,6 +29,7 @@ tr{
     font-family: "comic sans ms";
 }
 
+/* Scrolling button */
 .scrollup{
 width:40px;
 height:40px;
@@ -49,22 +50,6 @@ background: url('../images/icon_top.png') no-repeat;
 	padding-left: 5%;
 	font-size: x-large;
 	font-family: 'Roboto', sans-serif;
-}
-
-.my-footer {
-    background-color: #26b864;
-    color: white;
-    padding: auto;
-}
-
-.site-footer {
-    background-color: #26b864;
-    color: white;
-    margin-top: 120px;
-    padding: 25px 0;
-    text-align: center;
-    background-color: #00688B;
-  	border-color: #080808;
 }
 
 #weather-block{
@@ -100,7 +85,7 @@ background: url('../images/icon_top.png') no-repeat;
 .my_avatar{
     width: 100%;
     border-radius: 20%;
-    box-shadow: 11px 0 24px -11px #435471;
+    box-shadow: 11px 11px 24px -5px #435471;
     display: inline-block;
     width: 90%;
     vertical-align: middle;
@@ -143,15 +128,15 @@ background: url('../images/icon_top.png') no-repeat;
 }
 
 .social_network ul{
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+    margin: 0; 
+    padding: 4px; 
     margin-top: 10px;
 }
 
 ul.social_network li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    padding: 30px 30px 30px 30px; /* Поля вокруг текста */
+    display: inline; 
+    margin-right: 5px; 
+    padding: 30px 30px 30px 30px; 
     font-size: 2em;
 }
 
@@ -165,4 +150,19 @@ ul.social_network li {
 
 .badge{
     font-size: 16px;
+}
+
+footer{
+    background-color: #CD853F;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+aside{
+    margin-top: 60px;
 }
