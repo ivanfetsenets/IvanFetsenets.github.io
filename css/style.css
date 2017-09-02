@@ -113,6 +113,9 @@ background: url('../images/icon_top.png') no-repeat;
 .icon_education{
     width: 250px;
     height: 150px;
+    /*align-items: center;*/
+    display: block;
+    margin: 0 auto;
 }
 
 .my_text_height{
@@ -125,6 +128,10 @@ background: url('../images/icon_top.png') no-repeat;
 
 .p_fonts{
     font-family: "comic sans ms";
+}
+
+.p_fonts h3{
+    text-align: center;
 }
 
 .social_network ul{
@@ -142,6 +149,7 @@ ul.social_network li {
 
 .title_header{
     font-size: 2em;
+    text-align: center;
 }
 
 .panel-primary > .panel-heading {
@@ -165,4 +173,13 @@ footer{
 
 aside{
     margin-top: 60px;
+}
+
+.skills img{
+    display: block;
+    margin: 0 auto;
+}
+
+.skills h2{
+    text-align: center;
 }
