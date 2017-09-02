@@ -27,6 +27,7 @@ $('.scrollup').click(function()
 
 	function request(city_id) 
 	{
+		console.log("work");
 		// some needed parameters
 		var content = document.getElementById("city_name"); 
 		var my_temp = document.getElementById("temperature_value");
@@ -94,6 +95,8 @@ $('.scrollup').click(function()
 	}
 
 request(707471);
+
+
 	/*var cities = document.getElementById("mycity");
 
 	cities.addEventListener("change", function(){
