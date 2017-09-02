@@ -93,6 +93,7 @@ $('.scrollup').click(function()
 		}
 	}
 
+request(707471);
 	/*var cities = document.getElementById("mycity");
 
 	cities.addEventListener("change", function(){
