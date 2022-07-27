@@ -39,7 +39,7 @@ function request(city_id)
 
 
 	var URL = "https://api.openweathermap.org/data/2.5/weather?id=";
-	var API_KEY = "d75da5829ee2244d5a25bbb10c1a7318";
+	var API_KEY = "890af9ff7986d6f9b72c5fe1cee18186";
 
 	var REQ_URL = URL + city_id + "&appid=" + API_KEY;
 
