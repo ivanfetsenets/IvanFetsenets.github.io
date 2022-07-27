@@ -38,7 +38,7 @@ function request(city_id)
 	//var my_sunset = document.getElementById("sunset_time_value");
 
 
-	var URL = "http://api.openweathermap.org/data/2.5/weather?id=";
+	var URL = "https://api.openweathermap.org/data/2.5/weather?id=";
 	var API_KEY = "d75da5829ee2244d5a25bbb10c1a7318";
 
 	var REQ_URL = URL + city_id + "&appid=" + API_KEY;
