@@ -183,3 +183,7 @@ aside{
 .skills h2{
     text-align: center;
 }
+
+#minfin-informer-m1Fn-region iframe {
+    min-width: 100%;
+}
